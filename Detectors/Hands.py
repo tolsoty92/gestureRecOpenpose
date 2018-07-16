@@ -20,27 +20,35 @@ class HandDetector:
                 tf.import_graph_def(od_graph_def, name='')
             self.sess = tf.Session(graph=self.detection_graph)
 
-        self.scores = self.detection_graph.get_tensor_by_name('detection_scores:0')
+        self.scores = self.detection_graph.get_tensor_by_name(
+                                                                                    'detection_scores:0')
 
-    def detect_hands(self, img_np, score_thresh=0.5, im_widh=640, im_height=480):
+    def detect_hands(self, img_np, score_thresh=0.5,
+                                    im_widh=640, im_height=480):
         """ Function return a list with all founded hands.
             Args:
-                image_np - image as numpy array. In openCV image is already numpy array
-                score_thresh - min score of network's confidence
+                image_np - image as numpy array. In openCV image is already
+                numpy array score_thresh - min score of network's confidence
                              that founded object is hand (0: 1)"""
 
-        # Expand dimensions since the model expects images to have shape: [1, None, None, 3]
+        # Expand dimensions since the model expects images
+        # to have shape: [1, None, None, 3]
         image_np_expanded = np.expand_dims(img_np, axis=0)
-        image_tensor = self.detection_graph.get_tensor_by_name('image_tensor:0')
+        image_tensor = self.detection_graph.get_tensor_by_name(
+                                                                                            'image_tensor:0')
 
         # Each box represents a part of the image where a particular object was detected.
-        boxes = self.detection_graph.get_tensor_by_name('detection_boxes:0')
+        boxes = self.detection_graph.get_tensor_by_name(
+                                                                                        'detection_boxes:0')
 
         # Each score represent how level of confidence for each of the objects.
         # Score is shown on the result image, together with the class label.
-        scores = self.detection_graph.get_tensor_by_name('detection_scores:0')
-        classes = self.detection_graph.get_tensor_by_name('detection_classes:0')
-        num_detections = self.detection_graph.get_tensor_by_name('num_detections:0')
+        scores = self.detection_graph.get_tensor_by_name(
+                                                                                    'detection_scores:0')
+        classes = self.detection_graph.get_tensor_by_name(
+                                                                                    'detection_classes:0')
+        num_detections = self.detection_graph.get_tensor_by_name(
+                                                                                        'num_detections:0')
 
         # Actual detection.
         (boxes, scores, classes, num_detections) = self.sess.run(
@@ -60,7 +68,8 @@ class HandDetector:
         return actual_boxes
 
     def draw_box(self, img, box):
-        cv2.rectangle(img, (box[0], box[1]), (box[2], box[3]), (255, 0, 0), thickness=6)
+        cv2.rectangle(img, (box[0], box[1]), (box[2], box[3]),
+                                                    (255, 0, 0), thickness=6)
 
     def stop(self):
         self.sess.close()

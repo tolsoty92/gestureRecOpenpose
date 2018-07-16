@@ -1,3 +1,4 @@
+# -*- coding:utf8 -*-
 import cv2
 import joblib
 from time import time
@@ -7,14 +8,16 @@ from Web_camera.WebCamera import VideoStream
 
 
 if __name__ == '__main__':
-
+    # Загружаем классификатор жестов
     knn = joblib.load('data/g_classifier/g_c2')
 
+    # Инициализируем рабту камеры
     width, height = 640, 480
     stream = VideoStream(width=width, height=height, camera_num=0)
     RUN = True
     cv2.namedWindow('Video', cv2.WINDOW_NORMAL)
 
+    # Инициализируем tensorflow и OpenPose
     detector = HandDetector()
     op = GestureRec()
 
@@ -37,6 +40,7 @@ if __name__ == '__main__':
         count += 1
         if ret:
             if TF:
+                # Ищем руки
                 actual_boxes = detector.detect_hands(img)
                 if len(actual_boxes) > 0:
                     box = actual_boxes[0]
@@ -53,6 +57,7 @@ if __name__ == '__main__':
                         op_box = op.compute_BB(k_points)[1]
                         TF = not TF
             else:
+                # Если TF нашла руку, включаем OpenPose
                 if hand == "Right":
                     k_points, img = op.right_hand_skeleton(img, op_box)
                 elif hand == "Left":
@@ -62,16 +67,16 @@ if __name__ == '__main__':
                     x, y, d1, d2 =op_box
                     cv2.rectangle(img, (x, y), (x + d1, y + d2), (0, 255, 255), 5)
                     distance = op.compute_distanse(k_points)
+                    # Классифицируем жест
                     gesture = knn.predict(distance)[0]
-                    gestures_list.append(gesture)
-                    gestures_list = op.gestures_check(gestures_list)
-                    print(count)
+
                 else:
                     TF = not TF
 
         t = time() - t
         fps = 1.0 / t
 
+        # Визуализация
         cv2.putText(img, 'FPS = %f' % fps, (20, 20), 0, 0.5, (0, 0, 255))
         cv2.putText(img, 'Gesture = %s' % gesture, (20, 55), 0, 1, (255, 0, 0), thickness=6)
         cv2.imshow('Video', img)

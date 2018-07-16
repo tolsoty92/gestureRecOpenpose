@@ -1,14 +1,14 @@
+# -*- coding:utf8 -*-
+#ывывывв
 import PyOpenPose as OP
 import os
 import joblib
 from math import sqrt
 import numpy as np
-import cv2
-
 
 class GestureRec():
-    """Class to getting hand scelet and gesture rcognition."""
-    # Init OenPose neural network
+    """Класс для работы с OpenPose."""
+    # Инициализирум OpenPose
     def __init__(self, input_im_size=(640, 480), net_res=(320, 320),
                                     output_im_size=(640, 480), heatmaps=False,
                                                                     face=False, hands=True):
@@ -18,12 +18,12 @@ class GestureRec():
                               heatmaps, OP.OpenPose.ScaleMode.ZeroToOne, face, hands)
 
     def load_classifier(self, path_to_classifier='/home/user/Documents/Gesture_recognition/data/g_classifier/g_c2'):
+        # Загрузка классификатора (k-means)
         classifier = joblib.load(path_to_classifier)
         return classifier
 
     def compute_BB(self, hand, padding=1.5):
-        """Compute new boundong box to founded hand
-            It returns score and box"""
+        # Расчет области поиска руки для скелетизации
         minX = np.min(hand[:, 0])
         minY = np.min(hand[:, 1])
 
@@ -55,6 +55,8 @@ class GestureRec():
         return score, [int(minX), int(minY), int(width) + 30, int(height) + 30]
 
     def what_hand(self, img, box):
+        # Определяем, с какой рукой будем работать
+
         self.op.detectHands(img, np.array(box + box, dtype=np.int32).reshape((1, 8)))
         leftHand = self.op.getKeypoints(self.op.KeypointType.HAND)[0].reshape(-1, 3)
         rightHand = self.op.getKeypoints(self.op.KeypointType.HAND)[1].reshape(-1, 3)
@@ -68,11 +70,10 @@ class GestureRec():
             return scoreR, hand, rightHand
 
     def left_hand_skeleton(self, img, box):
+        # Скелетизация левй руки
         self.op.detectHands(img, np.array(box + [0, 0, 0, 0] , dtype=np.int32).reshape((1, 8)))
         hand = self.op.getKeypoints(self.op.KeypointType.HAND)[0].reshape(-1, 3)
         score, newHandBB = self.compute_BB(hand)
-        k_points = []
-        rendered_img = img
         if score > 0.5:
             k_points = hand
             rendered_img = self.op.render(img)
@@ -81,11 +82,10 @@ class GestureRec():
             return [], img
 
     def right_hand_skeleton(self, img, box):
+        # Скелетизация правой руки
         self.op.detectHands(img, np.array([0, 0, 0, 0] + box, dtype=np.int32).reshape((1, 8)))
         hand = self.op.getKeypoints(self.op.KeypointType.HAND)[1].reshape(-1, 3)
         score, newHandBB = self.compute_BB(hand)
-        k_points = []
-        rendered_img = img
         if score > 0.5:
             k_points = hand
             rendered_img = self.op.render(img)
@@ -95,27 +95,33 @@ class GestureRec():
 
 
     def get_hand_skeleton(self, img, box):
-        """ Double detection """
-        self.op.detectHands(img, np.array(box + box, dtype=np.int32).reshape((1, 8)))
-        leftHand = self.op.getKeypoints(self.op.KeypointType.HAND)[0].reshape(-1, 3)
-        rightHand = self.op.getKeypoints(self.op.KeypointType.HAND)[1].reshape(-1, 3)
+        # Для скелетизации без определения руки
+        # Работает медленнее, чем для конкретной руки
+
+        self.op.detectHands(img, np.array
+                                            (box + box, dtype=np.int32).reshape((1, 8)))
+        leftHand = self.op.getKeypoints(
+                                            self.op.KeypointType.HAND)[0].reshape(-1, 3)
+        rightHand = self.op.getKeypoints(
+                                            self.op.KeypointType.HAND)[1].reshape(-1, 3)
+
         scoreL, newHandBBL = self.compute_BB(leftHand)
         scoreR, newHandBBR =self.compute_BB(rightHand)
+
         k_points = []
         rendered_img = img
         if scoreL > scoreR:
             if scoreL > 0.5:
                 k_points = leftHand
-                #self.op.detectHands(img, np.array(box + [0, 0, 0, 0], dtype=np.int32).reshape((1, 8)))
                 rendered_img = self.op.render(img)
         else:
             if scoreR > 0.5:
                 k_points = rightHand
-                #self.op.detectHands(img, np.array([0, 0, 0, 0] + box, dtype=np.int32).reshape((1, 8)))
                 rendered_img = self.op.render(img)
         return    k_points, rendered_img
 
     def gesture_classification(self, k_points, classifier):
+        # Классификация жестов
         if len(k_points):
             distace = self.compute_distanse(k_points)
             gesture = classifier.predict(distace)[0]
@@ -126,6 +132,7 @@ class GestureRec():
 
     @staticmethod
     def compute_distanse(hand):
+        # Считаем расстояния от клчевых точек руки до начала ладони
         x = []
         y = []
         width = []
@@ -139,6 +146,8 @@ class GestureRec():
 
     @staticmethod
     def compute_distanse20(hand):
+        # Считаем расстояния от клчевых точек руки до начала ладони
+        # И расстояние между кончиками пальцев
         x = []
         y = []
         width = []
@@ -155,27 +164,23 @@ class GestureRec():
         return width.reshape(1, 24)
 
 
-    def gestures_check(self, gestures_list, max_len=80):
-        if len(gestures_list) > max_len:
-            gestures_list = gestures_list[1:len(gestures_list)]
-        gestures_list.reverse()
-        if 3. in gestures_list and 4. in gestures_list:
-            if gestures_list.index(4.) - gestures_list.index(3.) > -10 and \
-                    gestures_list.index(4.) - gestures_list.index(3.) < 0:
-                print('There were one two!!!')
-                gestures_list = []
-            if gestures_list.index(3.) - gestures_list.index(4.) > -10 and \
-                    gestures_list.index(3.) - gestures_list.index(4.) < 0:
-                print('There were two one!')
-                gestures_list = []
-        elif 0. in gestures_list and 2. in gestures_list:
-            if gestures_list.index(0.) - gestures_list.index(2.) > -10 and \
-                    gestures_list.index(0.) - gestures_list.index(2.) < 0:
-                print('There were fist rock!!!')
-                gestures_list = []
-            if gestures_list.index(2.) - gestures_list.index(0.) > -10 and \
-                    gestures_list.index(2.) - gestures_list.index(0.) < 0:
-                print('There were rock fist!')
-                gestures_list = []
-        gestures_list.reverse()
-        return gestures_list
+    def gestures_consistently(self, gest_lst):
+        #  Определяем, была ли заранее продемонстрирована
+        #   последовательность жестов.
+        # gest_list - обновляемый список фиксируемых камерой
+        #  зарезервированных жестов.
+        gestures_dict = {(1., 3., 4.): 'palm-1-2', (2., 4., 0.): 'fist-2-rock',
+                         (1., 2., 0.): 'palm-fist-rock', (1., 0.): 'palm-rock', (0., 1.): 'rock-palm'}
+
+        for combination in gestures_dict:
+            if len(combination) <= len(gest_lst):
+                found = True
+                g = gest_lst[:]
+                for comb_num in range(len(combination)):
+                    if combination[comb_num] in g:
+                        g = g[g.index(combination[comb_num]):]
+                    else:
+                        found = False
+
+                if found:
+                    print(gestures_dict[combination])
