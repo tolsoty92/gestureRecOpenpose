@@ -22,7 +22,7 @@ class HandDetector:
 
         self.scores = self.detection_graph.get_tensor_by_name('detection_scores:0')
 
-    def detect_hands(self, img_np, score_thresh=0.5):
+    def detect_hands(self, img_np, score_thresh=0.5, im_widh=640, im_height=480):
         """ Function return a list with all founded hands.
             Args:
                 image_np - image as numpy array. In openCV image is already numpy array
@@ -51,10 +51,10 @@ class HandDetector:
             if scores[0][i] > score_thresh:
                 box = boxes[0][i]
                 cv_box = []
-                cv_box.append(int(box[1] * 640))
-                cv_box.append(int(box[0] * 480))
-                cv_box.append(int(box[3] * 640))
-                cv_box.append(int(box[2] * 480))
+                cv_box.append(int(box[1] * im_widh))
+                cv_box.append(int(box[0] * im_height))
+                cv_box.append(int(box[3] * im_widh))
+                cv_box.append(int(box[2] * im_height))
                 actual_boxes.append(cv_box)
 
         return actual_boxes

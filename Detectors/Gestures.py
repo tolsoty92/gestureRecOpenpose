@@ -9,11 +9,11 @@ import cv2
 class GestureRec():
     """Class to getting hand scelet and gesture rcognition."""
     # Init OenPose neural network
-    def __init__(self, input_im_size=(640, 480), net_res=(240, 240),
+    def __init__(self, input_im_size=(640, 480), net_res=(320, 320),
                                     output_im_size=(640, 480), heatmaps=False,
                                                                     face=False, hands=True):
         OPENPOSE_ROOT= "/home/user/openpose"
-        self.op = OP.OpenPose((640, 480), net_res, output_im_size,
+        self.op = OP.OpenPose(input_im_size, net_res, output_im_size,
                               "COCO", OPENPOSE_ROOT + os.sep + "models" + os.sep, 0,
                               heatmaps, OP.OpenPose.ScaleMode.ZeroToOne, face, hands)
 
@@ -155,3 +155,27 @@ class GestureRec():
         return width.reshape(1, 24)
 
 
+    def gestures_check(self, gestures_list, max_len=80):
+        if len(gestures_list) > max_len:
+            gestures_list = gestures_list[1:len(gestures_list)]
+        gestures_list.reverse()
+        if 3. in gestures_list and 4. in gestures_list:
+            if gestures_list.index(4.) - gestures_list.index(3.) > -10 and \
+                    gestures_list.index(4.) - gestures_list.index(3.) < 0:
+                print('There were one two!!!')
+                gestures_list = []
+            if gestures_list.index(3.) - gestures_list.index(4.) > -10 and \
+                    gestures_list.index(3.) - gestures_list.index(4.) < 0:
+                print('There were two one!')
+                gestures_list = []
+        elif 0. in gestures_list and 2. in gestures_list:
+            if gestures_list.index(0.) - gestures_list.index(2.) > -10 and \
+                    gestures_list.index(0.) - gestures_list.index(2.) < 0:
+                print('There were fist rock!!!')
+                gestures_list = []
+            if gestures_list.index(2.) - gestures_list.index(0.) > -10 and \
+                    gestures_list.index(2.) - gestures_list.index(0.) < 0:
+                print('There were rock fist!')
+                gestures_list = []
+        gestures_list.reverse()
+        return gestures_list

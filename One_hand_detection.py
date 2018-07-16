@@ -8,7 +8,7 @@ from Web_camera.WebCamera import VideoStream
 
 if __name__ == '__main__':
 
-    knn = joblib.load('alph_knn20.sav')
+    knn = joblib.load('data/g_classifier/g_c2')
 
     width, height = 640, 480
     stream = VideoStream(width=width, height=height, camera_num=0)
@@ -26,10 +26,15 @@ if __name__ == '__main__':
     op_box = None
     hand = None
 
+    gestures_list = []
+    count = 0
+    now_gesture = None
+
     while RUN:
-        gesture = ''
+        gesture = None
         t = time()
         ret, img = stream.get_img()
+        count += 1
         if ret:
             if TF:
                 actual_boxes = detector.detect_hands(img)
@@ -44,7 +49,7 @@ if __name__ == '__main__':
                     op_box = [x, y, d1, d2]
                     cv2.rectangle(img, (x, y), (x + d1, y + d2), (0, 0, 255), 5)
                     score, hand, k_points = op.what_hand(img, op_box)
-                    if score > 0.5:
+                    if score > 0.45:
                         op_box = op.compute_BB(k_points)[1]
                         TF = not TF
             else:
@@ -56,8 +61,11 @@ if __name__ == '__main__':
                     op_box = op.compute_BB(k_points)[1]
                     x, y, d1, d2 =op_box
                     cv2.rectangle(img, (x, y), (x + d1, y + d2), (0, 255, 255), 5)
-                    distance = op.compute_distanse20(k_points)
+                    distance = op.compute_distanse(k_points)
                     gesture = knn.predict(distance)[0]
+                    gestures_list.append(gesture)
+                    gestures_list = op.gestures_check(gestures_list)
+                    print(count)
                 else:
                     TF = not TF
 
