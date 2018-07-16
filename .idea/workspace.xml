@@ -1,0 +1,1814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="459ee838-bc04-4047-9972-a20412ff0548" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scripts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scripts.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustHandNet.py" beforeDir="false" afterPath="$PROJECT_DIR$/JustHandNet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpLoop_heatmaps_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpLoop_heatmaps_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyOpenPose.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/0.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/0.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/1.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/1.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/10.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/10.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/100.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/100.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/101.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/101.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/102.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/102.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/103.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/103.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/104.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/104.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/105.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/105.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/106.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/106.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/107.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/107.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/108.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/108.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/109.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/109.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/11.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/11.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/110.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/110.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/111.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/111.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/112.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/112.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/113.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/113.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/114.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/114.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/115.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/115.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/116.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/116.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/117.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/117.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/118.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/118.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/119.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/119.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/12.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/12.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/120.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/120.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/121.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/121.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/122.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/122.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/123.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/123.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/124.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/124.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/125.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/125.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/126.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/126.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/127.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/127.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/128.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/128.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/129.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/129.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/13.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/13.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/130.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/130.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/131.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/131.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/132.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/132.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/133.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/133.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/134.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/134.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/135.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/135.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/136.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/136.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/137.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/137.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/138.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/138.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/139.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/139.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/14.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/14.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/140.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/140.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/141.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/141.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/142.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/142.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/143.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/143.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/144.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/144.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/145.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/145.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/146.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/146.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/147.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/147.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/148.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/148.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/149.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/149.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/15.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/15.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/150.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/150.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/151.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/151.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/152.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/152.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/153.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/153.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/154.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/154.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/155.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/155.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/156.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/156.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/157.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/157.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/158.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/158.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/159.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/159.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/16.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/16.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/160.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/160.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/161.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/161.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/162.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/162.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/163.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/163.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/164.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/164.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/165.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/165.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/166.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/166.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/167.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/167.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/168.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/168.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/169.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/169.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/17.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/17.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/170.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/170.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/171.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/171.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/172.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/172.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/173.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/173.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/174.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/174.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/175.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/175.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/176.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/176.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/177.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/177.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/178.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/178.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/179.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/179.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/18.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/18.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/180.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/180.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/181.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/181.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/182.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/182.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/183.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/183.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/184.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/184.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/185.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/185.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/186.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/186.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/187.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/187.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/188.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/188.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/189.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/189.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/19.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/19.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/190.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/190.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/191.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/191.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/192.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/192.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/193.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/193.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/194.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/194.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/195.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/195.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/196.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/196.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/197.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/197.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/198.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/198.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/199.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/199.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/2.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/2.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/20.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/20.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/200.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/200.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/201.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/201.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/202.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/202.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/203.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/203.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/204.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/204.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/205.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/205.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/206.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/206.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/207.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/207.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/208.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/208.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/209.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/209.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/21.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/21.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/210.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/210.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/211.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/211.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/212.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/212.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/213.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/213.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/214.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/214.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/215.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/215.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/216.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/216.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/217.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/217.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/218.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/218.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/219.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/219.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/22.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/22.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/220.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/220.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/221.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/221.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/222.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/222.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/223.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/223.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/224.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/224.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/225.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/225.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/226.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/226.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/23.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/23.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/24.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/24.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/25.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/25.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/26.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/26.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/27.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/27.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/28.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/28.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/29.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/29.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/3.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/3.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/30.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/30.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/31.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/31.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/32.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/32.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/33.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/33.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/34.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/34.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/35.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/35.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/36.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/36.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/37.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/37.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/38.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/38.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/39.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/39.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/4.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/4.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/40.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/40.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/41.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/41.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/42.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/42.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/43.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/43.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/44.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/44.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/45.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/45.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/46.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/46.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/47.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/47.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/48.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/48.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/49.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/49.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/5.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/5.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/50.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/50.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/51.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/51.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/52.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/52.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/53.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/53.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/54.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/54.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/55.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/55.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/56.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/56.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/57.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/57.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/58.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/58.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/59.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/59.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/6.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/6.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/60.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/60.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/61.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/61.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/62.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/62.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/63.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/63.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/64.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/64.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/65.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/65.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/66.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/66.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/67.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/67.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/68.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/68.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/69.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/69.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/7.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/7.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/70.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/70.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/71.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/71.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/72.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/72.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/73.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/73.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/74.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/74.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/75.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/75.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/76.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/76.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/77.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/77.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/78.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/78.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/79.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/79.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/8.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/8.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/80.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/80.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/81.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/81.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/82.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/82.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/83.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/83.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/84.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/84.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/85.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/85.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/86.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/86.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/87.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/87.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/88.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/88.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/89.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/89.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/9.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/9.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/90.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/90.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/91.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/91.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/92.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/92.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/93.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/93.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/94.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/94.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/95.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/95.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/96.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/96.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/97.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/97.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/98.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/98.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/rock/99.npy" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/rock/99.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto_detection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/.idea/detect_hand.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/faster_rcnn.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/label_map.pbtxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/.idea/object_detection.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/BUILD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/anchor_generators/BUILD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/anchor_generators/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/anchor_generators/grid_anchor_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/anchor_generators/grid_anchor_generator_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/anchor_generators/multiple_grid_anchor_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/anchor_generators/multiple_grid_anchor_generator_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/box_coders/BUILD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/box_coders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/box_coders/faster_rcnn_box_coder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/box_coders/faster_rcnn_box_coder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/box_coders/keypoint_box_coder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/box_coders/keypoint_box_coder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/box_coders/mean_stddev_box_coder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/box_coders/mean_stddev_box_coder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/box_coders/square_box_coder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/box_coders/square_box_coder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/builders/BUILD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/builders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/builders/anchor_generator_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/builders/anchor_generator_builder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/builders/box_coder_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/builders/box_coder_builder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/builders/box_predictor_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/builders/box_predictor_builder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/builders/hyperparams_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/builders/hyperparams_builder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/builders/image_resizer_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/builders/image_resizer_builder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/builders/input_reader_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/builders/input_reader_builder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/builders/losses_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/builders/losses_builder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/builders/matcher_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/builders/matcher_builder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/builders/model_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/builders/model_builder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/builders/optimizer_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/builders/optimizer_builder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/builders/post_processing_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/builders/post_processing_builder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/builders/preprocessor_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/builders/preprocessor_builder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/builders/region_similarity_calculator_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/builders/region_similarity_calculator_builder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/BUILD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/anchor_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/balanced_positive_negative_sampler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/balanced_positive_negative_sampler_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/batcher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/batcher_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/box_coder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/box_coder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/box_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/box_list_ops.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/box_list_ops_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/box_list_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/box_predictor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/box_predictor_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/data_decoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/keypoint_ops.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/keypoint_ops_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/losses.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/losses_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/matcher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/matcher_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/minibatch_sampler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/minibatch_sampler_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/post_processing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/post_processing_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/prefetcher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/prefetcher_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/preprocessor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/preprocessor_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/region_similarity_calculator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/region_similarity_calculator_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/standard_fields.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/target_assigner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/core/target_assigner_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/create_pascal_tf_record.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/create_pascal_tf_record_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/create_pet_tf_record.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/data/mscoco_label_map.pbtxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/data/pascal_label_map.pbtxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/data/pet_label_map.pbtxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/data_decoders/BUILD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/data_decoders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/data_decoders/tf_example_decoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/data_decoders/tf_example_decoder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/eval.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/eval_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/evaluator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/export_inference_graph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/export_inference_graph.py.save" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/exporter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/exporter_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/g3doc/configuring_jobs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/g3doc/defining_your_own_model.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/g3doc/detection_model_zoo.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/g3doc/exporting_models.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/g3doc/img/dogs_detections_output.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/g3doc/img/example_cat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/g3doc/img/kites_detections_output.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/g3doc/img/oxford_pet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/g3doc/img/tensorboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/g3doc/img/tensorboard2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/g3doc/installation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/g3doc/preparing_inputs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/g3doc/running_locally.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/g3doc/running_notebook.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/g3doc/running_on_cloud.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/g3doc/running_pets.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/g3doc/using_your_own_dataset.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/matchers/BUILD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/matchers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/matchers/argmax_matcher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/matchers/argmax_matcher_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/matchers/bipartite_matcher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/matchers/bipartite_matcher_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/meta_architectures/BUILD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/meta_architectures/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/meta_architectures/faster_rcnn_meta_arch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/meta_architectures/faster_rcnn_meta_arch_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/meta_architectures/faster_rcnn_meta_arch_test_lib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/meta_architectures/rfcn_meta_arch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/meta_architectures/rfcn_meta_arch_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/meta_architectures/ssd_meta_arch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/meta_architectures/ssd_meta_arch_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/models/BUILD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/models/faster_rcnn_inception_resnet_v2_feature_extractor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/models/faster_rcnn_inception_resnet_v2_feature_extractor_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/models/faster_rcnn_resnet_v1_feature_extractor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/models/faster_rcnn_resnet_v1_feature_extractor_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/models/feature_map_generators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/models/feature_map_generators_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/models/ssd_feature_extractor_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/models/ssd_inception_v2_feature_extractor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/models/ssd_inception_v2_feature_extractor_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/models/ssd_mobilenet_v1_feature_extractor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/models/ssd_mobilenet_v1_feature_extractor_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/object_detection_tutorial.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/BUILD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/anchor_generator.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/anchor_generator_pb2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/argmax_matcher.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/argmax_matcher_pb2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/bipartite_matcher.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/bipartite_matcher_pb2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/box_coder.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/box_coder_pb2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/box_predictor.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/box_predictor_pb2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/eval.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/eval_pb2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/faster_rcnn.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/faster_rcnn_box_coder.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/faster_rcnn_box_coder_pb2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/faster_rcnn_pb2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/grid_anchor_generator.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/grid_anchor_generator_pb2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/hyperparams.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/hyperparams_pb2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/image_resizer.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/image_resizer_pb2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/input_reader.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/input_reader_pb2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/losses.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/losses_pb2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/matcher.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/matcher_pb2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/mean_stddev_box_coder.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/mean_stddev_box_coder_pb2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/model.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/model_pb2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/optimizer.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/optimizer_pb2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/pipeline.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/pipeline_pb2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/post_processing.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/post_processing_pb2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/preprocessor.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/preprocessor_pb2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/region_similarity_calculator.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/region_similarity_calculator_pb2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/square_box_coder.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/square_box_coder_pb2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/ssd.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/ssd_anchor_generator.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/ssd_anchor_generator_pb2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/ssd_pb2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/string_int_label_map.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/string_int_label_map_pb2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/train.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/protos/train_pb2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/py_object_detection_tutorial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/samples/cloud/cloud.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/samples/configs/faster_rcnn_inception_resnet_v2_atrous_pets.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/samples/configs/faster_rcnn_resnet101_pets.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/samples/configs/faster_rcnn_resnet101_voc07.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/samples/configs/faster_rcnn_resnet152_pets.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/samples/configs/faster_rcnn_resnet50_pets.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/samples/configs/rfcn_resnet101_pets.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/samples/configs/ssd_inception_v2_pets.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/samples/configs/ssd_mobilenet_v1_pets.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/test_images/image1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/test_images/image2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/test_images/image_info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/trainer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/trainer_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/BUILD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gest_rec_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/category_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/category_util_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/dataset_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/dataset_util_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/label_map_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/label_map_util_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/learning_schedules.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/learning_schedules_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/metrics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/metrics_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/np_box_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/np_box_list_ops.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/np_box_list_ops_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/np_box_list_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/np_box_ops.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/np_box_ops_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/object_detection_evaluation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/object_detection_evaluation_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/ops.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/ops_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/per_image_evaluation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/per_image_evaluation_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/shape_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/shape_utils_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/static_shape.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/static_shape_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/test_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/test_utils_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/variables_helper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/variables_helper_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/visualization_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/object_detection/utils/visualization_utils_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/full_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/utils/hands_detect.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/utils/label_map.pbtxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/utils/mouse_control.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/utils/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/utils/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_hand/utils/web_camera.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web_camera/WebCamera.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faster_rcnn.pb" beforeDir="false" afterPath="$PROJECT_DIR$/data/faster_rcnn.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foo.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galloping knights.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/label_map.pbtxt" beforeDir="false" afterPath="$PROJECT_DIR$/data/label_map.pbtxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/anchor_generators/BUILD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/anchor_generators/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/alphabet_writing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/anchor_generators/grid_anchor_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/anchor_generators/grid_anchor_generator_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/anchor_generators/multiple_grid_anchor_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/anchor_generators/multiple_grid_anchor_generator_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/box_coders/faster_rcnn_box_coder.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/box_coders/faster_rcnn_box_coder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/box_coders/faster_rcnn_box_coder_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/box_coders/faster_rcnn_box_coder_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/box_coders/keypoint_box_coder.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/box_coders/keypoint_box_coder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/box_coders/keypoint_box_coder_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/box_coders/keypoint_box_coder_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/box_coders/mean_stddev_box_coder.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/box_coders/mean_stddev_box_coder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/box_coders/mean_stddev_box_coder_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/box_coders/mean_stddev_box_coder_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/box_coders/square_box_coder.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/box_coders/square_box_coder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/box_coders/square_box_coder_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/box_coders/square_box_coder_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/builders/BUILD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/builders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web_camera/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/builders/anchor_generator_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/builders/anchor_generator_builder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/builders/box_coder_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/builders/box_coder_builder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/builders/box_predictor_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/builders/box_predictor_builder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/builders/hyperparams_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/builders/hyperparams_builder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/builders/image_resizer_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/builders/image_resizer_builder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/builders/input_reader_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/builders/input_reader_builder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/builders/losses_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/builders/losses_builder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/builders/matcher_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/builders/matcher_builder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/builders/model_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/builders/model_builder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/builders/optimizer_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/builders/optimizer_builder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/builders/post_processing_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/builders/post_processing_builder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/builders/preprocessor_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/builders/preprocessor_builder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/builders/region_similarity_calculator_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/builders/region_similarity_calculator_builder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/anchor_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/anchor_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/balanced_positive_negative_sampler.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/balanced_positive_negative_sampler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/balanced_positive_negative_sampler_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/balanced_positive_negative_sampler_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/batcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/batcher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/batcher_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/batcher_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/box_coder.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/box_coder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/box_coder_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/box_coder_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/box_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/box_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/box_list_ops.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/box_list_ops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/box_list_ops_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/box_list_ops_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/box_list_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/box_list_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/box_predictor.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/box_predictor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/box_predictor_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/box_predictor_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/data_decoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/data_decoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/keypoint_ops.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/keypoint_ops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/keypoint_ops_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/keypoint_ops_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/losses.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/losses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/losses_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/losses_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/matcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/matcher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/matcher_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/matcher_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/minibatch_sampler.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/minibatch_sampler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/minibatch_sampler_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/minibatch_sampler_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/post_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/post_processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/post_processing_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/post_processing_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/prefetcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/prefetcher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/prefetcher_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/prefetcher_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/preprocessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/preprocessor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/preprocessor_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/preprocessor_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/region_similarity_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/region_similarity_calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/region_similarity_calculator_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/region_similarity_calculator_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/standard_fields.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/standard_fields.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/target_assigner.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/target_assigner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/core/target_assigner_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/core/target_assigner_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/create_pascal_tf_record.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/create_pascal_tf_record_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/create_pet_tf_record.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/data/mscoco_label_map.pbtxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/data/pascal_label_map.pbtxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/data/pet_label_map.pbtxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/data_decoders/BUILD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/data_decoders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/One_hand_detection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/data_decoders/tf_example_decoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/data_decoders/tf_example_decoder_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/eval.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/eval_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/evaluator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/export_inference_graph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/export_inference_graph.py.save" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/exporter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/exporter_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/g3doc/configuring_jobs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/g3doc/defining_your_own_model.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/g3doc/detection_model_zoo.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/g3doc/exporting_models.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/g3doc/img/dogs_detections_output.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/g3doc/img/example_cat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/g3doc/img/kites_detections_output.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/g3doc/img/oxford_pet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/g3doc/img/tensorboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/g3doc/img/tensorboard2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/g3doc/installation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/g3doc/preparing_inputs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/g3doc/running_locally.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/g3doc/running_notebook.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/g3doc/running_on_cloud.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/g3doc/running_pets.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/g3doc/using_your_own_dataset.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/matchers/BUILD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/matchers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Detectors/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/matchers/argmax_matcher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/matchers/argmax_matcher_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/matchers/bipartite_matcher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/matchers/bipartite_matcher_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/meta_architectures/BUILD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/meta_architectures/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Detectors/Hands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/meta_architectures/faster_rcnn_meta_arch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/meta_architectures/faster_rcnn_meta_arch_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/meta_architectures/faster_rcnn_meta_arch_test_lib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/meta_architectures/rfcn_meta_arch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/meta_architectures/rfcn_meta_arch_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/meta_architectures/ssd_meta_arch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/meta_architectures/ssd_meta_arch_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/models/BUILD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Detectors/Gestures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/models/faster_rcnn_inception_resnet_v2_feature_extractor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/models/faster_rcnn_inception_resnet_v2_feature_extractor_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/models/faster_rcnn_resnet_v1_feature_extractor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/models/faster_rcnn_resnet_v1_feature_extractor_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/models/feature_map_generators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/models/feature_map_generators_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_feature_extractor_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_inception_v2_feature_extractor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_inception_v2_feature_extractor_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_mobilenet_v1_feature_extractor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/models/ssd_mobilenet_v1_feature_extractor_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/object_detection_tutorial.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/protos/preprocessor_pb2.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/protos/preprocessor_pb2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/protos/ssd_anchor_generator_pb2.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/protos/ssd_anchor_generator_pb2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/py_object_detection_tutorial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/samples/cloud/cloud.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/samples/configs/faster_rcnn_inception_resnet_v2_atrous_pets.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/samples/configs/faster_rcnn_resnet101_pets.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/samples/configs/faster_rcnn_resnet101_voc07.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/samples/configs/faster_rcnn_resnet152_pets.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/samples/configs/faster_rcnn_resnet50_pets.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/samples/configs/rfcn_resnet101_pets.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/samples/configs/ssd_inception_v2_pets.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/samples/configs/ssd_mobilenet_v1_pets.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/test_images/image1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/test_images/image2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/test_images/image_info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/trainer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/trainer_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/category_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/utils/category_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/category_util_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/dataset_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/dataset_util_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/label_map_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/utils/label_map_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/label_map_util_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/learning_schedules.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/learning_schedules_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/metrics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/metrics_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/np_box_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/np_box_list_ops.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/np_box_list_ops_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/np_box_list_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/np_box_ops.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/np_box_ops_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/object_detection_evaluation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/object_detection_evaluation_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/ops.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/ops_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/per_image_evaluation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/per_image_evaluation_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/shape_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/shape_utils_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/static_shape.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/static_shape_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/test_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/test_utils_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/variables_helper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/variables_helper_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/visualization_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/utils/visualization_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/utils/visualization_utils_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/two_hands.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/web_camera.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/web_camera.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/activate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/activate.csh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/activate.fish" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/activate_this.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/easy_install" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/easy_install-2.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/pip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/pip2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/pip2.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/python" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/python-config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/python2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/python2.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/wheel" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/include/python2.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/UserDict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/_abcoll.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/_weakrefset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/abc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/codecs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/copy_reg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/distutils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/distutils/distutils.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/encodings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/fnmatch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/genericpath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/lib-dynload" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/linecache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/locale.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/no-global-site-packages.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/ntpath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/orig-prefix.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/os.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/posixpath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/re.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/easy_install.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip-10.0.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip-10.0.1.dist-info/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip-10.0.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip-10.0.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip-10.0.1.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip-10.0.1.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip-10.0.1.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/basecommand.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/baseparser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/build_env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/cmdoptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/commands/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/commands/check.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/commands/completion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/commands/configuration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/commands/download.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/commands/freeze.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/commands/hash.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/commands/help.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/commands/install.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/commands/list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/commands/search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/commands/show.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/commands/uninstall.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/commands/wheel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/configuration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/download.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/index.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/locations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/models/index.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/operations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/operations/check.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/operations/freeze.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/operations/prepare.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/pep425tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/req/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/req/req_file.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/req/req_install.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/req/req_set.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/req/req_uninstall.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/resolve.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/status_codes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/appdirs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/deprecation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/encoding.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/glibc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/hashes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/logging.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/misc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/outdated.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/packaging.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/setuptools_build.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/temp_dir.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/typing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/utils/ui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/vcs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/vcs/bazaar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/vcs/git.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/vcs/mercurial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/vcs/subversion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_internal/wheel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/appdirs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/_cmd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/adapter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/caches/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/caches/file_cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/caches/redis_cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/controller.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/filewrapper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/heuristics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/serialize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/wrapper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/certifi/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/certifi/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/certifi/cacert.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/certifi/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/big5freq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/big5prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/chardistribution.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/charsetgroupprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/charsetprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/cli/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/cli/chardetect.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/codingstatemachine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/cp949prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/enums.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/escprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/escsm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/eucjpprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/euckrfreq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/euckrprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/euctwfreq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/euctwprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/gb2312freq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/gb2312prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/hebrewprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/jisfreq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/jpcntx.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/langbulgarianmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/langcyrillicmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/langgreekmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/langhebrewmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/langhungarianmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/langthaimodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/langturkishmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/latin1prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/mbcharsetprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/mbcsgroupprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/mbcssm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/sbcharsetprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/sbcsgroupprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/sjisprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/universaldetector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/utf8prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/chardet/version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/colorama/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/colorama/ansi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/colorama/ansitowin32.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/colorama/initialise.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/colorama/win32.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/colorama/winterm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/misc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/shutil.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/sysconfig.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/sysconfig.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/tarfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/database.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/index.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/locators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/manifest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/markers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/metadata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/resources.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/scripts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/t32.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/t64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/w32.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/w64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/wheel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distro.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_ihatexml.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_inputstream.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_tokenizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_trie/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_trie/_base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_trie/datrie.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_trie/py.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/alphabeticalattributes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/inject_meta_charset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/lint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/optionaltags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/sanitizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/whitespace.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/html5parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/serializer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treeadapters/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treeadapters/genshi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treeadapters/sax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treebuilders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treebuilders/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treebuilders/dom.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treebuilders/etree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treebuilders/etree_lxml.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/dom.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/etree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/etree_lxml.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/genshi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/idna/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/idna/codec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/idna/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/idna/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/idna/idnadata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/idna/intranges.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/idna/package_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/idna/uts46data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/ipaddress.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/lockfile/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/lockfile/linklockfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/lockfile/mkdirlockfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/lockfile/pidlockfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/lockfile/sqlitelockfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/lockfile/symlinklockfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/msgpack/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/msgpack/_version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/msgpack/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/msgpack/fallback.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/__about__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/_compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/_structures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/markers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/requirements.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/specifiers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/pkg_resources/py31compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/progress/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/progress/bar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/progress/counter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/progress/helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/progress/spinner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/pyparsing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/pytoml/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/pytoml/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/pytoml/parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/pytoml/writer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/__version__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/_internal_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/adapters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/certs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/cookies.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/help.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/hooks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/sessions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/status_codes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/structures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/retrying.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/six.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/_collections.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/connection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/connectionpool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/contrib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/contrib/_securetransport/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/contrib/_securetransport/bindings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/contrib/_securetransport/low_level.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/contrib/appengine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/contrib/ntlmpool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/contrib/pyopenssl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/contrib/securetransport.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/contrib/socks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/fields.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/filepost.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/packages/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/packages/backports/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/packages/backports/makefile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/packages/ordered_dict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/packages/six.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/packages/ssl_match_hostname/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/packages/ssl_match_hostname/_implementation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/poolmanager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/request.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/response.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/util/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/util/connection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/util/request.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/util/response.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/util/retry.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/util/selectors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/util/ssl_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/util/timeout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/util/url.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/urllib3/util/wait.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/webencodings/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/webencodings/labels.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/webencodings/mklabels.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/webencodings/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/webencodings/x_user_defined.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/appdirs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/__about__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/_compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/_structures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/markers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/requirements.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/specifiers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/pyparsing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/six.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/extern/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/py31compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools-39.1.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools-39.1.0.dist-info/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools-39.1.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools-39.1.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools-39.1.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools-39.1.0.dist-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools-39.1.0.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools-39.1.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools-39.1.0.dist-info/zip-safe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/_vendor/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/_vendor/packaging/__about__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/_vendor/packaging/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/_vendor/packaging/_compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/_vendor/packaging/_structures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/_vendor/packaging/markers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/_vendor/packaging/requirements.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/_vendor/packaging/specifiers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/_vendor/packaging/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/_vendor/packaging/version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/_vendor/pyparsing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/_vendor/six.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/archive_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/build_meta.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/cli-32.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/cli-64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/cli.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/alias.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/bdist_egg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/bdist_rpm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/bdist_wininst.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/build_clib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/build_ext.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/build_py.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/develop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/dist_info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/easy_install.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/egg_info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/install.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/install_egg_info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/install_lib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/install_scripts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/launcher manifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/py36compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/register.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/rotate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/saveopts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/sdist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/setopt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/upload.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/upload_docs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/dep_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/depends.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/dist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/extension.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/extern/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/glibc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/glob.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/gui-32.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/gui-64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/gui.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/launch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/lib2to3_ex.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/monkey.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/msvc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/namespaces.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/package_index.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/pep425tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/py27compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/py31compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/py33compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/py36compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/sandbox.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/script (dev).tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/script.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/site-patch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/ssl_support.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/unicode_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/wheel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/windows_support.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel-0.31.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel-0.31.0.dist-info/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel-0.31.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel-0.31.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel-0.31.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel-0.31.0.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel-0.31.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/archive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/bdist_wheel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/egg2wheel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/install.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/metadata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/paths.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/pep425tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/pkginfo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/signatures/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/signatures/djbec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/signatures/ed25519py.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/signatures/keys.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/tool/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/wininst2wheel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/sre.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/sre_compile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/sre_constants.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/sre_parse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/stat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/types.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/warnings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/local/bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/local/include" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/local/lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="full_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/full_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1012">
+              <caret line="51" column="69" selection-start-line="51" selection-start-column="69" selection-end-line="51" selection-end-column="69" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="One_hand_detection.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/One_hand_detection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1702">
+              <caret line="74" column="17" lean-forward="true" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gestures.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Detectors/Gestures.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1794">
+              <caret line="83" column="60" selection-start-line="83" selection-start-column="60" selection-end-line="83" selection-end-column="60" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>draw_bounding_box_on_image</find>
+      <find>classes</find>
+      <find>draw_bounding_box_on_image_array</find>
+      <find>rend</find>
+      <find>print</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/object_detection/utils/visualization_utils.py" />
+        <option value="$PROJECT_DIR$/utils/hands_detect.py" />
+        <option value="$PROJECT_DIR$/utils/web_camera.py" />
+        <option value="$PROJECT_DIR$/main_test.py" />
+        <option value="$PROJECT_DIR$/recognition_test.py" />
+        <option value="$PROJECT_DIR$/Detectors/Hands.py" />
+        <option value="$PROJECT_DIR$/test_hand_detection.py" />
+        <option value="$PROJECT_DIR$/gest_rec_test.py" />
+        <option value="$PROJECT_DIR$/auto_detection.py" />
+        <option value="$PROJECT_DIR$/alphabet_writing.py" />
+        <option value="$PROJECT_DIR$/OpLoop_heatmaps_example.py" />
+        <option value="$PROJECT_DIR$/full_test.py" />
+        <option value="$PROJECT_DIR$/Detectors/Gestures.py" />
+        <option value="$PROJECT_DIR$/One_hand_detection.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="75" />
+    <option name="y" value="24" />
+    <option name="width" value="1652" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Gesture_recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scripts" type="47feb1d3:ProjectViewModuleNode" />
+            </path>
+            <path>
+              <item name="Gesture_recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scripts" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="Gesture_recognition" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$/PyOpenPose/build/PyOpenPoseLib" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/signs/i" />
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Web_camera" />
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.One_hand_detection">
+    <configuration name="One_hand_detection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/One_hand_detection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="OpLoop_heatmaps_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpLoop_heatmaps_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
+      <module name="scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="full_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/full_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test_hand_detection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_hand_detection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.full_test" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.test_hand_detection" />
+      <item itemvalue="Python.OpLoop_heatmaps_example" />
+      <item itemvalue="Python.One_hand_detection" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.One_hand_detection" />
+        <item itemvalue="Python.full_test" />
+        <item itemvalue="Python.OpLoop_heatmaps_example" />
+        <item itemvalue="Python.test_hand_detection" />
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="459ee838-bc04-4047-9972-a20412ff0548" name="Default" comment="" />
+      <created>1525953716738</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1525953716738</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="75" y="24" width="1652" height="1056" extended-state="4" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.45303866" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.27072403" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2508108" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32948583" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.21189189" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32948583" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/object_detection/utils/visualization_utils.py</url>
+          <line>21</line>
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="21" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test_hand_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Detectors/Hands.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="27" column="87" selection-start-line="27" selection-start-column="87" selection-end-line="27" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/hands_detect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1357">
+          <caret line="71" column="82" selection-start-line="71" selection-start-column="82" selection-end-line="71" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object_detection/utils/visualization_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1886">
+          <caret line="89" selection-start-line="89" selection-end-line="118" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Detectors/Gestures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2737">
+          <caret line="129" column="30" selection-start-line="129" selection-start-column="30" selection-end-line="129" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JustFaceNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Detectors/Gestures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_hand_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Detectors/Hands.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="71" column="82" lean-forward="true" selection-start-line="71" selection-start-column="82" selection-end-line="71" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object_detection/utils/visualization_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="89" selection-start-line="89" selection-end-line="118" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1770">
+          <caret line="128" column="30" selection-start-line="128" selection-start-column="30" selection-end-line="128" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/hands_detect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JustFaceNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_detection.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JustFaceNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JustFaceNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JustFaceNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JustHandNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyOpenPose.so" />
+    <entry file="file://$PROJECT_DIR$/detect_hand/main.py" />
+    <entry file="file://$PROJECT_DIR$/arrays/visual.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv_test.py" />
+    <entry file="file://$PROJECT_DIR$/utils/test.py" />
+    <entry file="file://$PROJECT_DIR$/utils/utils.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/label_map.pbtxt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object_detection/utils/visualization_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1886">
+          <caret line="89" selection-start-line="89" selection-end-line="118" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="894" selection-start-line="894" selection-end-line="894" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/numpy/core/numeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="491" selection-start-line="491" selection-end-line="491" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/multiprocessing/process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="257" selection-start-line="257" selection-end-line="257" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/multiprocessing/pool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/web_camera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web_camera/WebCamera.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/hands_detect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recognition_test.py" />
+    <entry file="file://$PROJECT_DIR$/JustFaceNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alphabet_writing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="76" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2553">
+          <caret line="111" column="70" selection-start-line="111" selection-start-column="70" selection-end-line="111" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1357">
+          <caret line="71" column="82" selection-start-line="71" selection-start-column="82" selection-end-line="71" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_hand_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alph_knn20.sav">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alpha_knn.sav">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/sklearn/externals/joblib/parallel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Detectors/Hands.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gest_rec_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpLoop_heatmaps_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/full_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="51" column="69" selection-start-line="51" selection-start-column="69" selection-end-line="51" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Detectors/Gestures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1794">
+          <caret line="83" column="60" selection-start-line="83" selection-start-column="60" selection-end-line="83" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/One_hand_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1702">
+          <caret line="74" column="17" lean-forward="true" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
